@@ -4,7 +4,7 @@
 **POST stakeTransaction(codec, senderID, receiverAddress, amount)** 
 
 * codec - ***string*** - _specific to vendor_
-* sender - ***[static] string*** - _Sender ID (ask for this)_
+* sender - ***[static] string*** - _User ID (ask for this)_
 * recipient - ***[static] string*** - _Reciever Address_
 * amount - ***number*** - _e.g. 1.00_
 
