@@ -10,10 +10,9 @@ using Mongoc
 # collection = Mongoc.Collection(db, "your_collection_name")
 
 # Connect to the MongoDB server
-function connect_to_mongodb()
-    client = Mongoc.Client("mongodb+srv://w4kuu:nMGuXqnyH5ULyFB8@node-auth.9q8tcgv.mongodb.net/test?retryWrites=true&w=majority")
-    return client
-end
+# function connect_to_mongodb()
+#     return client
+# end
 
 # Disconnect from the MongoDB server
 function disconnect_from_mongodb(client::Mongoc.Client)
