@@ -1,7 +1,7 @@
 ## v1.1 Usage: 
 
 ### Create Transaction conducts a platform transaction 
-**POST stakeTransaction(codec, senderID, receiverAddress, amount)** 
+**POST stakeTransaction(type, codec, senderID, receiverAddress, amount, currency)** 
 
 - > type - ***enum*** _['send', 'receive'] (buy, sell)_
 - > codec - ***string*** - _specific to vendor_
