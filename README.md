@@ -8,5 +8,6 @@
 * recipient - ***[static] string*** - _Reciever Address_
 * amount - ***number*** - _e.g. 1.00_
 
-### New Muvor Wallet will retrieve all credentials for a new wallet (parameterless GET)
-**GET createWallet()**
+### New Muvor Wallet will retrieve all credentials for a new wallet
+**POST createWallet(user)**
+* user - ***[static] string*** - _User ID (ask for this)_
